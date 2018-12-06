@@ -21,7 +21,7 @@ namespace Company.Function
 
             var name = Environment.GetEnvironmentVariable("HELLO_WORLD_NAME") ?? "World";
 
-            return (ActionResult)new OkObjectResult($"Hello {name}");
+            return (ActionResult)new OkObjectResult($"Hello everyone {name}");
         }
     }
 }
